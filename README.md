@@ -80,8 +80,19 @@ The project combines **algorithmic theory, Python implementation, and experiment
 - **Runtime Plots:** Saved automatically as `greedy_runtime.png` and `dc_runtime.png`  
 - **CSV Outputs:** Detailed timing logs stored in `artifacts/` directory  
 
-Example outputs:
-Greedy 4000: 0.00075s
-Greedy 16000: 0.00363s
-D&C 1024: 0.00382s
-D&C 4096: 0.01845s
+## Example outputs:
+- Greedy 4000: 0.00075s
+- Greedy 16000: 0.00363s
+- D&C 1024: 0.00382s
+- D&C 4096: 0.01845s
+
+---
+
+## ▶️ How to Run
+
+### 1. Install Dependencies
+```bash
+- pip install numpy matplotlib pandas
+- python greedy_dc_experiments.py
+
+
