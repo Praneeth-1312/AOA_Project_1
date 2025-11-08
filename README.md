@@ -81,3 +81,7 @@ The project combines **algorithmic theory, Python implementation, and experiment
 - **CSV Outputs:** Detailed timing logs stored in `artifacts/` directory  
 
 Example outputs:
+Greedy 4000: 0.00075s
+Greedy 16000: 0.00363s
+D&C 1024: 0.00382s
+D&C 4096: 0.01845s
