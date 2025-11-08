@@ -1,0 +1,37 @@
+{
+  "seed": 0,
+  "repeats": 5,
+  "env": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "matplotlib": "unknown"
+  },
+  "greedy_sanity": {
+    "trials": 100,
+    "passed": 100,
+    "pass_rate": 1.0
+  },
+  "regression": {
+    "greedy": {
+      "slope_loglog_vs_nlogn": 0.9977782440946565,
+      "R2": 0.9983190967690022
+    },
+    "dc": {
+      "slope_loglog_vs_nlogn": 0.9328458396690068,
+      "R2": 0.9880164337160512
+    }
+  },
+  "artifacts": {
+    "greedy_csv": "artifacts\\greedy_runtimes.csv",
+    "dc_csv": "artifacts\\dc_runtimes.csv",
+    "cross_csv": "artifacts\\dc_crossover.csv",
+    "greedy_plot": "artifacts\\greedy_runtime.png",
+    "dc_plot": "artifacts\\dc_runtime.png",
+    "cross_plot": "artifacts\\dc_crossover.png",
+    "greedy_regression_tex": "artifacts\\greedy_regression.tex",
+    "dc_regression_tex": "artifacts\\dc_regression.tex",
+    "greedy_sanity_tex": "artifacts\\greedy_sanity.tex",
+    "dc_crossover_table_tex": "artifacts\\dc_crossover_table.tex",
+    "figures_snippet_tex": "artifacts\\figures_snippet.tex"
+  }
+}
