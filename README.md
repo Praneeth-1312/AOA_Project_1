@@ -91,8 +91,8 @@ The project combines **algorithmic theory, Python implementation, and experiment
 ## ▶️ How to Run
 
 ### 1. Install Dependencies
-```bash
 - pip install numpy matplotlib pandas
+### 2. Run the Experiment
 - python greedy_dc_experiments.py
 
 
